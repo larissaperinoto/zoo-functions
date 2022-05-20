@@ -12,6 +12,4 @@ function getSpeciesByIds(...ids) {
   return researchSpecie;
 }
 
-getSpeciesByIds();
-
 module.exports = getSpeciesByIds;
