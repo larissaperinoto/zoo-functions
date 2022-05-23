@@ -1,15 +1,9 @@
 const data = require('../data/zoo_data');
 
+const { species } = data;
+
 function getSpeciesByIds(...ids) {
-  const researchSpecie = [];
-  ids.forEach((id) => {
-    data.species.forEach((objeto) => {
-      if (objeto.id === id) {
-        researchSpecie.push(objeto);
-      }
-    });
-  });
-  return researchSpecie;
+  return species.filter((specie) => ids.includes(specie.id));
 }
 
 module.exports = getSpeciesByIds;
