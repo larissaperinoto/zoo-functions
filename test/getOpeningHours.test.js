@@ -44,4 +44,8 @@ describe('Testes da função getOpeningHours', () => {
   it('Verifica se ao receber uma hora inválida retorna uma mensagem de erro', () => {
     expect(() => getOpeningHours('Tuesday', '09:89-AM')).toThrow('The minutes must be between 0 and 59');
   });
+
+  it('Verifica se ao receber uma hora inválida retorna uma mensagem de erro', () => {
+    expect(() => getOpeningHours('Tuesday', 'AB:89-AM')).toThrow(`The hour should represent a number`);
+  });
 });
