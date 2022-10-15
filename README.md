@@ -20,7 +20,7 @@ Para executar o projeto faça o clone deste repositório usando o comando abaixo
 
 Após o clone, instale as dependências do projeto com o comando abaixo.
 
-   npm install
+    npm install
 
 Os testes podem ser executados localmente com a versão 16 do node. Caso sua versão seja diferente, utilize o comando abaixo para alterar a versão do node para a 16.
 
