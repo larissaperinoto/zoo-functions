@@ -10,6 +10,8 @@ O projeto desenvolvido busca exercitar a utilização do JavaScript para solucio
 
 O projeto foi desenvolvido utilizando HTML, CSS e JavaScript. Os testes foram desenvolvidos utilizando a ferramenta [Jest](https://jestjs.io/pt-BR/). O elaboração deste projeto seguiu a prática de desenvolvimento orientado a testes (TDD).
 
+O arquivo `zoo_data.js` foi disponibilizado pela [Trybe](https://www.betrybe.com/) para a elaboração deste projeto.
+
 ### Execução
 
 Para executar o projeto faça o clone deste repositório usando o comando abaixo.
