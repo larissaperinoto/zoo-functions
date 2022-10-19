@@ -8,9 +8,18 @@ O projeto desenvolvido busca exercitar a utilização do JavaScript para solucio
 
 ### Tecnologias e Ferramentas
 
+<div>
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="html" />
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css" />
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="javascript" />
+    <img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white" alt="jest" />
+</div>
+
+<br>
+
 O projeto foi desenvolvido utilizando HTML, CSS e JavaScript. Os testes foram desenvolvidos utilizando a ferramenta [Jest](https://jestjs.io/pt-BR/). O elaboração deste projeto seguiu a prática de desenvolvimento orientado a testes (TDD).
 
-O arquivo `zoo_data.js` foi disponibilizado pela [Trybe](https://www.betrybe.com/) para a elaboração deste projeto.
+**Obs.:** O arquivo **zoo_data.js** foi disponibilizado pela [Trybe](https://www.betrybe.com/) para a elaboração deste projeto.
 
 ### Execução
 
@@ -33,3 +42,7 @@ Rode os testes com o seguinte comando.
  Para rodar um teste individual, utilize o comando abaixo.
  
     npm test <nome-do-arquivo>
+    
+ ---
+ 
+Desenvolvido por [Larissa Perinoto](www.linkedin.com/in/larissaperinoto), © 2022.
